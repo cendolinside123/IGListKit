@@ -7,8 +7,9 @@ Pod::Spec.new do |s|
   s.description = 'Diffing utilities for a data-driven UICollectionView framework for building fast and flexible lists.'
 
   s.license =  { :type => 'MIT' }
-  s.authors = 'Jan'
+  s.authors = 'Instagram'
   s.social_media_url = 'https://twitter.com/fbOpenSource'
+  # NOTE: I change source to mine because It keep calling to original resource
   s.source = {
     :git => 'https://github.com/cendolinside123/IGListKit.git',
     :tag => s.version.to_s,
