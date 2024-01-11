@@ -52,4 +52,7 @@ Pod::Spec.new do |s|
     'CLANG_CXX_LANGUAGE_STANDARD' => 'c++11',
     'CLANG_CXX_LIBRARY' => 'libc++',
   }
+  s.ios.resource_bundles = {'IGListKit' => ['Source/PrivacyInfo.xcprivacy']}
+  s.tvos.resource_bundles = {'IGListKit' => ['Source/PrivacyInfo.xcprivacy']}
+  # s.osx.resource_bundles = {'IGListKit' => ['Source/PrivacyInfo.xcprivacy']}
 end

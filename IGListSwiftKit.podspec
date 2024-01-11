@@ -37,4 +37,8 @@ Pod::Spec.new do |s|
 
   s.ios.frameworks = 'UIKit'
   s.tvos.frameworks = 'UIKit'
+
+  s.ios.resource_bundles = {'IGListSwiftKit' => ['Source/PrivacyInfo.xcprivacy']}
+  s.tvos.resource_bundles = {'IGListSwiftKit' => ['Source/PrivacyInfo.xcprivacy']}
+  # s.osx.resource_bundles = {'IGListSwiftKit' => ['Source/PrivacyInfo.xcprivacy']}
 end
