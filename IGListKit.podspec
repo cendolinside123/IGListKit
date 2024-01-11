@@ -9,11 +9,11 @@ Pod::Spec.new do |s|
   s.license =  { :type => 'MIT' }
   s.authors = 'Instagram'
   s.social_media_url = 'https://twitter.com/fbOpenSource'
-  s.source = {
-    :git => 'https://github.com/cendolinside123/IGListKit.git',
-    :tag => '4.0.1',
-    :branch => 'Jan/Privacy-Manifest-Support'
-  }
+  # s.source = {
+  #   :git => 'https://github.com/cendolinside123/IGListKit.git',
+  #   :tag => '4.0.1',
+  #   :branch => 'Jan/Privacy-Manifest-Support'
+  # }
 
   s.dependency 'IGListDiffKit', "= #{s.version}"
 
@@ -45,5 +45,7 @@ Pod::Spec.new do |s|
     'CLANG_CXX_LANGUAGE_STANDARD' => 'c++11',
     'CLANG_CXX_LIBRARY' => 'libc++',
   }
-  s.resource_bundles = {'IGListKit' => ['Source/PrivacyInfo.xcprivacy']}
+  s.ios.resource_bundles = {'IGListKit' => ['Source/PrivacyInfo.xcprivacy']}
+  s.tvos.resource_bundles = {'IGListKit' => ['Source/PrivacyInfo.xcprivacy']}
+  # s.osx.resource_bundles = {'IGListKit' => ['Source/PrivacyInfo.xcprivacy']}
 end
