@@ -9,11 +9,10 @@ Pod::Spec.new do |s|
   s.license =  { :type => 'MIT' }
   s.authors = 'Jan'
   s.social_media_url = 'https://twitter.com/fbOpenSource'
-  # s.source = {
-  #   :git => 'https://github.com/cendolinside123/IGListKit.git',
-  #   :tag => '4.0.1',
-  #   :branch => 'Jan/Privacy-Manifest-Support'
-  # }
+  s.source = {
+    :git => 'https://github.com/cendolinside123/IGListKit.git',
+    :branch => 'Jan/Privacy-Manifest-Support'
+  }
 
   s.dependency 'IGListDiffKit', "= #{s.version}"
 
