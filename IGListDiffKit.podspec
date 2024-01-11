@@ -11,7 +11,7 @@ Pod::Spec.new do |s|
   s.social_media_url = 'https://twitter.com/fbOpenSource'
   s.source = {
     :git => 'https://github.com/cendolinside123/IGListKit.git',
-    :tag => s.version.to_s,
+    :tag => '4.0.1',
     :branch => 'Jan/Privacy-Manifest-Support'
   }
 
