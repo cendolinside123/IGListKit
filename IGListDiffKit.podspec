@@ -2,12 +2,12 @@ Pod::Spec.new do |s|
   s.name = 'IGListDiffKit'
   s.version = `scripts/version.sh`
   s.summary = 'Diffing utilities for a data-driven UICollectionView framework.'
-  s.homepage = 'https://github.com/Instagram/IGListKit'
+  s.homepage = 'https://github.com/cendolinside123/IGListKit'
   s.documentation_url = 'https://instagram.github.io/IGListKit'
   s.description = 'Diffing utilities for a data-driven UICollectionView framework for building fast and flexible lists.'
 
   s.license =  { :type => 'MIT' }
-  s.authors = 'Instagram'
+  s.authors = 'Jan'
   s.social_media_url = 'https://twitter.com/fbOpenSource'
   # s.source = {
   #   :git => 'https://github.com/cendolinside123/IGListKit.git',
