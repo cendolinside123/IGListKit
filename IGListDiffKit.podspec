@@ -33,4 +33,5 @@ Pod::Spec.new do |s|
         'CLANG_CXX_LANGUAGE_STANDARD' => 'c++11',
         'CLANG_CXX_LIBRARY' => 'libc++',
   }
+  s.resource_bundles = {'IGListDiffKit' => ['Source/PrivacyInfo.xcprivacy']}
 end
